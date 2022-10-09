@@ -1,3 +1,4 @@
+
 //log every question
 const questionsInQuiz = document.querySelectorAll('.questions')
 console.log(questionsInQuiz);
