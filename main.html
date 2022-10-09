@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <title>Quiz Time</title>
+
+
+</head>
+<body>
+
+<div class="container" id="questionContainer1">
+    <p class = "questions" >What is the capital of Denmark?<p/>
+
+    <label id = "a1"><input type="radio" name="questionOne">Odense<br></label>
+    <label id = "a2"><input type="radio" name="questionOne" id="correct1">København<br></label>
+    <label id = "a3"><input type="radio" name="questionOne">Aarhus<br></label>
+    <label id = "a4"><input type="radio" name="questionOne" >Roskilde<br></label>
+    <button class="nextBtn" onclick="next(1)">Next</button>
+
+</div>
+
+<div class="container" id="questionContainer2">
+    <p class = "questions" >What country has the largest population in the world?<p/>
+
+    <label id = "b1"><input type="radio" name="questionTwo" id="correct2">China<br></label>
+    <label id = "b2"><input type="radio" name="questionTwo">India<br></label>
+    <label id = "b3"><input type="radio" name="questionTwo">Pakistan<br></label>
+    <label id = "b4"><input type="radio" name="questionTwo">United States<br></label>
+    <button class="nextBtn" onclick="next(2)">Next</button>
+</div>
+
+<div class="container" id="questionContainer3">
+    <p class = "questions" >What is the largest ocean in the world?<p/>
+
+    <label id = "c1"><input type="radio" name="questionThree" class="answers3">Atlantic Ocean<br></label>
+    <label id = "c2"><input type="radio" name="questionThree" class="answers3">Mediterranean Sea<br></label>
+    <label id = "c3"><input type="radio" name="questionThree" class="answers3">Antarctic Ocean<br></label>
+    <label id = "c4"><input type="radio" name="questionThree" class="answers3" id="correct3">Pacific Ocean<br></label>
+    <button class="resultBtn" id="resultBtn" onclick="result(1)">Results</button>
+
+</div>
+
+</body>
+</html>
+
+

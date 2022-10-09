@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp2485789.jpg');
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 100px 2px;
+}
+
+.questions {
+    font-family: "Arial Black";
+    font-size: large;
+}
+
+button{
+    background-color: saddlebrown;
+    color: white;
+    width: 100%;
+    font-size: medium;
+    font-family: Arial;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button:active {
+    transform: scale(.95);
+}
+
+#a1:hover, #a2:hover, #a3:hover, #a4:hover {
+    font-family: Rockwell;
+    color: saddlebrown;
+
+}
+
+
+#b1:hover, #b2:hover, #b3:hover, #b4:hover {
+    font-family: Rockwell;
+    color: saddlebrown;
+}
+
+#c1:hover, #c2:hover, #c3:hover, #c4:hover {
+    font-family: Rockwell;
+    color: saddlebrown;
+}
+
+#questionContainer2 {
+    display: none;
+}
+
+#questionContainer3 {
+    display: none;
+
+}
