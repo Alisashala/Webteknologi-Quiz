@@ -44,5 +44,6 @@ function result() {
     } else if (score === 0) {
         alert("You got " + score + "/3 right. Try again!")
     }
+
 }
 
